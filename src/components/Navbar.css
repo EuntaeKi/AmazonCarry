@@ -1,0 +1,11 @@
+.is-active {
+    font-weight: bold;
+    color: black;
+}
+
+.nav-sep {
+    border-right: 1px solid #909090;
+    margin-right: 0.8rem;
+    padding-right: 1rem !important;
+    height: 2.5rem;
+}

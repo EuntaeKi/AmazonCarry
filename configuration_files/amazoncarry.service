@@ -1,0 +1,15 @@
+[Unit]
+Description=amazoncarry.service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=pi
+ExecStart=sudo python3 /home/pi/Scripts/setup.py
+StandardOutput=journal+console
+
+[Install]
+WantedBy=multi-user.target

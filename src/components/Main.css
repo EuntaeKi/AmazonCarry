@@ -1,0 +1,36 @@
+.Main-Container {
+    background-color: #FF9900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1000;
+  }
+  
+  .Welcome-Header {
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 7vw;
+  }
+  
+  
+  #Detect-Button {
+    background-color: #FFBF69;
+    border-color: #FFBF69;
+    margin-top: 2.5rem;
+    width: 20vw;
+    height: 15vh;
+    border-radius: 100px;
+    font-size: 3vw;
+  }
+  
+  #Detect-Button:hover {
+    background-color: #FFBF69CC;
+    border-color: #FFBF69CC;
+    opacity: 90%;
+  }
+  

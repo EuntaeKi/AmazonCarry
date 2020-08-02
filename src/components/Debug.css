@@ -1,0 +1,118 @@
+#debug-container {
+    background-color: #FF9900;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.debug-col {
+    margin-left: 2vw;
+}
+
+#distance-group {
+    margin-top: 10vh;
+    margin-left: 4vw;
+}
+
+.distance-measure {
+    background-color: #ff9900;
+    border-top: 1px solid #707070;
+    margin-top: 2vw;
+    height: 2vh;
+}
+
+#distance-measure-left {
+    border-left: 1px solid #707070;
+    margin-right: 2rem;
+    width: 10vw;
+}
+
+#distance-measure-right {
+    border-right: 1px solid #707070;
+    margin-left: 2rem;
+    width: 30vw;
+}
+
+#distance-text {
+    font-weight: bold;
+    color: #f9f9f9;
+    font-size: 2.5vw;
+}
+
+#distance-host {
+    border: 0.5vw solid #707070;
+    background-color: #FCF5C7;
+    margin-top: 4.5vw;
+    width: 8vw;
+    height: 8vw;
+}
+
+#distance-floor {
+    border-top: 0.5vw solid #707070;
+    width: 70vw;
+}
+
+#distance-device {
+    background-color: #FFC09F;
+    border: 0.5vw solid #707070;
+    border-radius: 10rem;
+    margin-top: 4.5vw;
+    width: 8vw;
+    height: 8vw;
+}
+
+#host-group {
+    margin-bottom: 10vw;
+}
+
+.host-host {
+    font-size: 8vw;
+    color: #FFBF69;
+}
+
+.host-disconnected {
+    font-size: 8vw;
+    color: #FFBF6933;
+}
+
+#host-status {
+    font-size: 3.5vw;
+    margin-top: -4vw;
+    color: #f9f9f9;
+}
+
+.manual-col {
+    margin-right: 1vw;
+    margin-top: 2vw;
+}
+
+#manual-text {
+    font-size: 6vw;
+    color: #FFBF69;
+}
+
+#manual-status {
+    font-size: 4vw;
+    color:#f9f9f9;
+    margin-top: -3vw;
+}
+
+#time-distance-group {
+    margin-top: 15vh;
+    color: #f9f9f9;
+}
+
+#time-heading {
+    margin-bottom: -1.5vw;
+    font-size: 5.5vw;
+    text-decoration: underline;
+}
+
+#time-time {
+    font-size: 3.3vw;
+}
+
+#time-string {
+    font-size: 8vw;
+    margin-top: -5vw;
+}
